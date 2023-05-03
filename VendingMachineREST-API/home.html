@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Vending Machine</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/home.css">
+
+   
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 id="headerRow">Vending Machine</h1>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-8" id="vending-items">
+            </div>
+
+            <!-- 4 small column-->
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <h2 style="text-align: center">Total $ In</h2>
+                    <input type="text" class="form-control" id="money-input" style="width:50%" readonly />
+                    <br>
+                    <button type="button" class="btn btn-primary" id="add-dollar-button" style="width:49%">Add Dollar</button>
+                    <button type="button" class="btn btn-primary" id="add-quarter-button" style="width: 49%">Add Quarter</button>
+                    <button type="button" class="btn btn-primary" id="add-dime-button" style="width:49%">Add Dime</button>
+                    <button type="button" class="btn btn-primary" id="add-nickel-button" style="width:49%">Add Nickel</button>
+                 </div>
+                <hr>
+
+                <div class="form-group">
+                    <h2 style="text-align: center">Messages</h2>
+                    <input type="text" class="form-control" id="vending-message" readonly />
+                    <div class="form-group">
+                        <label for="vending-item" class="col-sm-2 label-control" id="itemlabel">Item:</label>
+                        <p></p>
+
+
+
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="item-to-vend" readonly />
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary form-control col-sm-offset-1" id="purchase-button"
+                            style="width:85%">Make Purchase</button>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="form-group">
+                    <h2 style="text-align:center" id="change-header">Change</h2>
+                    <div class="form-group">
+                        <input type="text" class="form-control col-md-offset-1 col-sm-6" id="change-input-box"
+                            style="width:80%" readonly />
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary col-sm-offset-4" id="return-change">Return
+                            Change</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-2.4.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/Home.js"></script>
+
+
+
+</body>
+
+</html>

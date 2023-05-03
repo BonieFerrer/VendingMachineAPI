@@ -1,0 +1,51 @@
+
+
+/* . or dot tag is for class */
+/* # or hash tag is for id */
+
+.col-sm-4 {
+    border-style: groove;
+    border-color: silver;
+    border-radius: 15px;
+    background-color: whitesmoke;
+ }
+#headerRow {
+    border-style: groove;
+    border-radius: 12px;
+    text-align: center;
+    background-color: steelblue;
+    color: orange;
+}
+#money-input {
+     margin-left: 25%;
+}
+
+#itemlabel {
+
+    font-family: 'Courier New';
+    color: orange;
+    font-size: larger;
+    
+}
+#vending-message{
+    font-family: 'Courier';
+    color: red;
+    font-size: larger;
+}
+#change-input-box{
+    font-family: 'Courier';
+    color: red;
+    font-size: larger;
+
+}
+#money-input{
+    font-family: 'Courier';
+    color:red;
+    font-size: larger;
+}
+#item-to-vend{
+    font-family: 'Courier';
+    color: red;
+    font-size: larger;
+    
+}
